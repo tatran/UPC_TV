@@ -1,0 +1,36 @@
+{
+  "name": "upc-tv-samsung",
+  "version": "1.0.0",
+  "description": "UPC TV streaming application for Samsung Smart TV (Tizen OS)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build:wgt": "node build-wgt.js",
+    "build": "node build-wgt.js"
+  },
+  "keywords": [
+    "samsung",
+    "smart-tv",
+    "tizen",
+    "upc",
+    "upc-tv",
+    "streaming",
+    "dash",
+    "shaka-player"
+  ],
+  "author": "Antigravity",
+  "license": "ISC",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@neon/config": "^1.9.2",
+    "@neon/env": "^1.6.3",
+    "@neondatabase/serverless": "^1.2.0",
+    "archiver": "^7.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^18.0.8",
+    "express": "^4.21.2",
+    "pg": "^8.23.1",
+    "shaka-player": "^4.12.6"
+  }
+}

@@ -1,0 +1,35 @@
+# Secrets and Environment variables
+.env
+.env.*
+!.env.example
+js/telemetry-config.js
+!js/telemetry-config.example.js
+
+# Dependencies
+node_modules/
+
+# Visual Studio / IDE
+.vs/
+.vscode/
+
+# Build outputs and large packages
+build/
+Debug/
+*.wgt
+*.zip
+userwidget/
+.manifest.tmp
+author-signature.xml
+signature1.xml
+
+# Logs and debug dumps
+*.log
+dlog_dump.txt
+dlog_recent.txt
+test_dlog.txt
+
+# Scratch & temp scripts
+scratch/
+
+# Neon CLI cache
+.neon
